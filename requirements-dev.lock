@@ -21,6 +21,8 @@ flask-scss==0.5
     # via flask-tutorial
 flask-sqlalchemy==3.1.1
     # via flask-tutorial
+gunicorn==22.0.0
+    # via flask-tutorial
 itsdangerous==2.2.0
     # via flask
 jinja2==3.1.4
@@ -28,6 +30,8 @@ jinja2==3.1.4
 markupsafe==2.1.5
     # via jinja2
     # via werkzeug
+packaging==24.0
+    # via gunicorn
 pyscss==1.4.0
     # via flask-scss
 six==1.16.0
