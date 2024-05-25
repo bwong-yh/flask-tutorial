@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- flask uses jinga2 to link templates & other files -->
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+
+    <!-- {% block name_of_block %}{% endblock %} -->
+    {% block head %}{% endblock %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
