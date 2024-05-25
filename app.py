@@ -79,5 +79,6 @@ def edit(id):
         return render_template("edit.html", task=task)
 
 # start server
-if __name__ == "__main__":    
-    app.run(debug=False, port=5000)
+if __name__ == "__main__":
+    # app.run(debug=True)    
+    app.run(debug=False)
